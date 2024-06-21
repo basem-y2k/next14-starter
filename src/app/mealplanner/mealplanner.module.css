@@ -1,0 +1,45 @@
+.container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: coral;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.tableInput {
+  height: 32px;
+  max-width: 96px;
+  width: 100%;
+  border-radius: 5px;
+  height: 1.75rem;
+  text-align: center;
+}
+
+.tableLable {
+  height: 1.75rem;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  min-height: 1.75rem;
+}
+
+.tableHead {
+  border: 2px #dee2e6;
+  height: 3rem;
+  font-size: 1rem;
+  background-color: var(--text);
+  /* ;#3e4852; */
+  color: var(--bg);
+  width: 18rem;
+  min-width: 200px;
+}
+
+.paceHolder {
+  visibility: hidden;
+  font-size: 0;
+}
